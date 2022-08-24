@@ -1,4 +1,4 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-- command: echo az init
+- command: env BROWSER=/ide/bin/helpers/browser.sh az login
