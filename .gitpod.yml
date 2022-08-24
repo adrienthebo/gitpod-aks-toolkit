@@ -1,0 +1,3 @@
+image: .gitpod.Dockerfile
+tasks:
+- command: echo az init
